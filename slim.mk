@@ -20,9 +20,6 @@ $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/lge/geeb_ca/full_geeb_ca.mk)
 
-# Inherit led flash settings
-$(call inherit-product, vendor/slim/config/common_ledflash.mk)
-
 PRODUCT_COPY_FILES +=  \
     vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
